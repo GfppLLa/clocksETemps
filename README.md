@@ -96,7 +96,16 @@ Para compilar e executar este projeto, você precisará:
 Os arquivos **diagram.json** dentro das pastas **streetLightTemp** e **buttonEClock** podem ser carregados no **Wokwi** para simulação do funcionamento antes da execução real na placa.  
 
 ---
+### Demonstração
 
+Veja uma demonstração em vídeo do funcionamento do sistema no YouTube:
+
+[**Assista à Demonstração no YouTube**](https://youtube.com/live/7SHDxxW0SWs)
+
+- **Aluno:** Gleison Fonseca de Paula
+
+---
+---
 ## Licença  
 
 Este projeto está licenciado sob a **Licença GNU**.  
