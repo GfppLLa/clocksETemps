@@ -55,7 +55,12 @@ target_include_directories(streetLigtTemp PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(streetLigtTemp 
-        
+        pico_bootrom
+        hardware_clocks
+        pico_stdlib
+        hardware_timer
+        hardware_pwm
+        pico_time
         )
 
 pico_add_extra_outputs(streetLigtTemp)
