@@ -18,13 +18,13 @@
 #define DEBOUNCING_TIME_US 220
 #define NUMLEDS 3
 //variaveis
-volatile _Atomic uint estado;//0 - vermelho; 1- amarelho; 2 - verde
+volatile _Atomic uint8_t estado;//0 - vermelho; 1- amarelho; 2 - verde
 static uint8_t leds[3] = {13,11,12};
 volatile _Atomic uint8_t outroContador =0;
 volatile uint32_t hora_presente;
 static volatile uint32_t ultimo_pressionamento = 0;
 struct repeating_timer timer;
-volatile _Atomic uint saida_teste=0;
+volatile _Atomic uint_8t saida_teste=0;
 //
 
 //prototipos
