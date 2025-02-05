@@ -1,5 +1,5 @@
 
-Cada pasta contém um **CMakeLists.txt**, um **arquivo JSON do Wokwi** para simulação e o **código-fonte em C** correspondente.  
+Repositório criado para projeto do programa de residência **EmbarcaTech**, uma realização **CEPEDI** e apresentada ao professor  **RICARDO MENEZES PRATES** com conteúdo de Temporizadores da ***UNIDADE 4 CAPITULO 5***.  
 
 ## Atividade 1: Semáforo Automático  
 
