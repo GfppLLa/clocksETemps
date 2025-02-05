@@ -63,16 +63,31 @@ Para compilar e executar este projeto, você precisará:
     cd clocksETemps
     ```
 
-3. Compile o código:  
+3. Compile cada atividade separadamente:  
 
-    ```bash
-    mkdir build
-    cd build
-    cmake ..
-    make
-    ```
+    - **Para a Atividade 1 (Semáforo Automático)**:  
 
-4. Transfira o arquivo compilado para a placa via USB. Se necessário, pressione o botão do **GPIO 22** para entrar no modo bootloader.  
+      ```bash
+      cd ativ_um/streetLightTemp
+      mkdir build
+      cd build
+      cmake ..
+      make
+      ```
+
+    - **Para a Atividade 2 (Temporizador por Interrupção)**:  
+
+      ```bash
+      cd ../../../ativ_dois/buttonEClock
+      mkdir build
+      cd build
+      cmake ..
+      make
+      ```
+
+4. Após a compilação, transfira o arquivo gerado (`.uf2`) para a placa via USB.  
+   - Se necessário, pressione o botão do **GPIO 22** para entrar no modo bootloader.  
+
 
 ---
 
