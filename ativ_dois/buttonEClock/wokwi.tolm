@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/buttonEClock.uf2'
+elf = 'build/buttonEClock.elf'

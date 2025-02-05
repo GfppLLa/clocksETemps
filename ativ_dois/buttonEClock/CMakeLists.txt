@@ -46,7 +46,13 @@ pico_enable_stdio_usb(buttonEClock 1)
 
 # Add the standard library to the build
 target_link_libraries(buttonEClock
-        pico_stdlib)
+            pico_bootrom
+            hardware_clocks
+            pico_stdlib
+            hardware_timer
+            hardware_pwm
+            pico_time
+        )
 
 # Add the standard include files to the build
 target_include_directories(buttonEClock PRIVATE
